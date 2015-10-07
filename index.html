@@ -1,0 +1,159 @@
+<html manifest="demo_html.appcache">
+
+<head>
+    <meta name="viewport" content="width=320, maximum-scale=1.0" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=cp1251" />
+    <script src="jquery.min.js"></script>
+
+
+    <style>
+        #sig {
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            right: 0;
+            text-align: center;
+        }
+        body {
+            font-family: "Georgia", serif;
+            background-color: #EBFFAD;
+        }
+        #display {
+            text-align: center;
+        }
+        #box {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 25px;
+            background: #E0E0E0;
+            padding: 20px;
+            box-shadow: 7px 7px 10px #888888;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="box">
+        <tr>
+            <td>
+                <div id="display">Hello</div>
+            <td>
+        </tr>
+    </table>
+    <script>
+        var messageGen = function() {
+            var d = new Date();
+            var text = '';
+            switch (d.getDate()) {
+                case 2:
+                    text = "";
+                    break;
+                case 3:
+                    text = "";
+                    break;
+                case 4:
+                    text = "";
+                    break;
+                case 5:
+                    text = ""
+                    break;
+                case 6:
+                    text = "";
+                    break;
+                case 7:
+                    text = "";
+                    break;
+                case 8:
+                    text = "";
+                    break;
+                case 9:
+                    text = "";
+                    break;
+                case 10:
+                    text = "";
+                    break;
+                case 11:
+                    text = "";
+                    break;
+                case 12:
+                    text = "";
+                    break;
+                case 13:
+                    text = "";
+                    break;
+                case 14:
+                    text = "";
+                    break;
+                case 15:
+                    text = "";
+                    break;
+                case 16:
+                    text = "";
+                    break;
+                case 17:
+                    text = "";
+                    break;
+                case 18:
+                    text = "";
+                    break;
+                case 19:
+                    text = "";
+                    break;
+                case 20:
+                    text = "";
+                    break;
+                case 21:
+                    text = "";
+                    break;
+                case 22:
+                    text = "";
+                    break;
+                case 23:
+                    text = "";
+                    break;
+                case 24:
+                    text = "";
+                    break;
+                case 25:
+                    text = "";
+                    break;
+                case 26:
+                    text = "";
+                    break;
+                case 27:
+                    text = "";
+                    break;
+                case 28:
+                    text = "";
+                    break;
+                case 29:
+                    text = "";
+                    break;
+
+
+                default:
+                    text = "";
+            }
+
+            document.getElementById('display').innerHTML = text;
+
+
+
+        }
+
+        $(document).ready(function() {
+            messageGen();
+            $('#box').fadeIn(4000);
+
+        });
+    </script>
+    <div id="Sig">Chingiz Mardanov</div>
+</body>
+
+</html>
